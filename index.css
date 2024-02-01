@@ -1,0 +1,104 @@
+.gradient-background {
+    background: linear-gradient(300deg, #0F1035, #7FC7D9, #365486);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+  
+.background{
+    height: 400;
+    width: 50%;
+    object-fit: fill;
+}
+
+.personalImg {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+    border: 5px solid #fff;
+    box-shadow: 0 0 0 5px #7FC7D9;
+}
+
+h1{
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    color: white;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    color: #7FC7D9;
+}
+
+h3{
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    color: #365486;
+}
+
+#brightcolor{
+    color: #7FC7D9;
+}
+
+.feature-icon{
+    border: #fff 5px solid;
+    border-radius: 50%;
+}
+
+.white{
+    color: white;
+}
+
+.blue{
+    color: #7FC7D9;
+}
+
+.darkblue{
+    color: #365486;
+}
+
+.dark{
+    color: #0F1035;
+}
+
+hr {
+    border: dotted #365486 7px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+a{
+    border: 0;
+}
+
+.contact-button:hover {
+    color: #7FC7D9 !important;
+}
+
+.linked-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 25px;
+}
+
+.svg-color {
+    fill: white;
+}
